@@ -9,7 +9,7 @@ describe('test', () => {
     });
 
     test('should show tooltip', async () => {
-        const page = await browser.newPage();
+        page = await browser.newPage();
         await page.goto('http://localhost:4173');
         await page.locator('btn').click;
     });
