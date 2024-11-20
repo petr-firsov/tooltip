@@ -9,7 +9,7 @@
     "start": "webpack server --mode development",
     "build": "webpack --mode production",
     "lint": "eslint ./dist/main.js",
-    "test": "start-server-and-test jest http://localhost:4173"
+    "test": "start-server-and-test start :4173 jest"
   },
   "devDependencies": {
     "@babel/core": "^7.25.8",
