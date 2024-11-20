@@ -9,6 +9,7 @@
     "start": "webpack server --mode development",
     "build": "webpack --mode production",
     "lint": "eslint ./dist/main.js",
+    "chrome": "npx puppeteer browsers install chrome",
     "test": "start-server-and-test start :4173 jest"
   },
   "devDependencies": {
